@@ -1,0 +1,51 @@
+src/main.o src/main.o: ../src/main.c ../src/platform.h \
+ ../src/platform_config.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xparameters.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xparameters_ps.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_io.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_types.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_printf.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xparameters.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xpseudo_asm.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h \
+ ../src/Delay.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xuartlite.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_assert.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xstatus.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xstatus.h \
+ ../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_printf.h
+
+../src/platform.h:
+
+../src/platform_config.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xparameters.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xparameters_ps.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_io.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_types.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_printf.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xparameters.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xpseudo_asm.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h:
+
+../src/Delay.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xuartlite.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_assert.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xstatus.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xstatus.h:
+
+../../Wiz750SR_RGBLED_test_bsp/ps7_cortexa9_0/include/xil_printf.h:
