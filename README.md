@@ -7,4 +7,5 @@ web-app to allow real time control of a PWM controlled RGB led via a web-browser
 Inport the hdf file on the SDK and use the provided FW to control 
 the RGB led connected to pins a0,A1, A2 of the arduino shield.
 
-![Alt text](Wiz750SR-ZYNQ_RGB_controller/a3.jpg?raw=true "Title")
+
+![title](https://github.com/Q-point/Wiz750SR-ZYNQ_RGB_controller/blob/master/a3.jpg)
