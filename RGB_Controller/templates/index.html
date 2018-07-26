@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Examples for bootstrap-slider plugin">
+    <meta name="author" content="">
+
+    <title>Slider for Bootstrap Examples Page</title>
+
+    <!-- core CSS -->
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-slider.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+    	/* Space out content a bit */
+		body {
+		  padding-top: 20px;
+		  padding-bottom: 20px;
+		}
+
+		h1 small {
+			font-size: 51%;
+		}
+
+		/* Everything but the jumbotron gets side spacing for mobile first views */
+		.header,
+		.marketing,
+		.footer {
+		  padding-left: 15px;
+		  padding-right: 15px;
+		}
+
+		/* Custom page header */
+		.header {
+		  border-bottom: 1px solid #e5e5e5;
+		}
+		/* Make the masthead heading the same height as the navigation */
+		.header h3 {
+		  margin-top: 0;
+		  margin-bottom: 0;
+		  line-height: 40px;
+		  padding-bottom: 19px;
+		}
+
+		/* Custom page footer */
+		.footer {
+		  padding-top: 19px;
+		  color: #777;
+		  border-top: 1px solid #e5e5e5;
+		}
+
+		/* Customize container */
+		.container {
+			min-width: 640px;
+		}
+		@media (min-width: 768px) {
+		  .container {
+		    max-width: 1000px;
+		  }
+		}
+		.container-narrow > hr {
+		  margin: 30px 0;
+		}
+
+		/* Main marketing message and sign up button */
+		.title {
+		  text-align: center;
+		  border-bottom: 1px solid #e5e5e5;
+		}
+
+		/* Responsive: Portrait tablets and up */
+		@media screen and (min-width: 768px) {
+		  /* Remove the padding we set earlier */
+		  .header,
+		  .footer {
+		    padding-left: 0;
+		    padding-right: 0;
+		  }
+		  /* Space out the masthead */
+		  .header {
+		    margin-bottom: 30px;
+		  }
+		  /* Remove the bottom border on the jumbotron for visual effect */
+		  .title {
+		    border-bottom: 0;
+		  }
+		}
+
+		.well {
+			background-color: #E0E0E0;
+		}
+
+		.slider-example {
+			padding: 10px 0;
+			margin: 35px 0;
+		}
+
+		#destroyEx5Slider, #ex6CurrentSliderValLabel, #ex7-enabled {
+			margin-left: 45px;
+		}
+
+		#ex6SliderVal {
+			color: green;
+		}
+
+		#slider12a .slider-track-high, #slider12c .slider-track-high {
+			background: green;
+		}
+
+		#slider12b .slider-track-low, #slider12c .slider-track-low {
+			background: red;
+		}
+
+		#slider12c .slider-selection {
+			background: yellow;
+		}
+		
+
+		.center {
+			 float: none;
+			 margin-left: auto;
+			 margin-right: auto;
+		}
+
+    </style>
+
+    <style type="text/css">
+		/* Example 1 custom styles */
+		#ex1Slider .slider-selection {
+   			background: #BABABA;
+  		}
+
+    	/* Example 3 custom styles */
+		#RGB {
+    		height: 20px;
+    		background: rgb(128, 128, 128);
+  		}
+		#RC .slider-selection {
+		    background: #FF8282;
+		}
+		#RC .slider-handle {
+			background: red;
+		}
+		#GC .slider-selection {
+			background: #428041;
+		}
+		#GC .slider-handle {
+			background: green;
+		}
+		#BC .slider-selection {
+			background: #8283FF;
+		}
+		#BC .slider-handle {
+			border-bottom-color: blue;
+		}
+		#R, #G, #B {
+			width: 300px;
+		}
+    </style>
+<!-- 	<script type="text/javascript" src="Slider%20for%20Bootstrap%20Examples%20Page_files/modernizr.js"></script>
+ -->    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1>RGB <small>console</small></h1>
+      </p>
+	  </div>
+
+   	
+	<div style="text-align:center;">
+	
+		
+		<b>R</b> 
+		<input type="text" class="span2" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="0" data-slider-id="RC" id="R" data-slider-tooltip="hide" data-slider-handle="round" data-slider-orientation="vertical" data-slider-reversed= "true" />
+		
+		
+		<b>G</b> 
+		<input type="text" class="span2" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="0" data-slider-id="GC" id="G" data-slider-tooltip="hide" data-slider-handle="round" data-slider-orientation="vertical" data-slider-reversed= "true"/>
+		
+		<b>B</b> 
+		<input type="text" class="span2" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="0" data-slider-id="BC" id="B" data-slider-tooltip="hide" data-slider-handle="round" data-slider-orientation="vertical" data-slider-reversed= "true"/>
+		
+	
+	</div>
+
+		<p>
+		<p>
+		<p>
+		<p>
+		<div id="RGB"></div>
+
+		 <div style='margin:5px 5px; clear:both' > 
+			<center>  &copy;Copyright 2018 DimiterKendri.	 </center>
+		</div> 
+
+		</div>
+
+    <script type="text/javascript" src="../static/js/jquery.js"></script>
+    <script type="text/javascript" src="../static/js/bootstrap-slider.js"></script>
+	
+    <script type="text/javascript">
+    	$(document).ready(function() {
+
+		var RGBChange = function() {
+	          $('#RGB').css('background', 'rgb('+r.getValue()+','+g.getValue()+','+b.getValue()+')')
+			  
+					var rval = r.getValue();
+					var gval = g.getValue();
+					var bval = b.getValue();
+					
+					var rgbLED = new Object();
+					rgbLED.rval =  rval;
+					rgbLED.gval =  gval;
+					rgbLED.bval =  bval;
+					
+					var rgbLEDvalues = JSON.stringify(rgbLED)
+					
+					console.log('red: ' + rval);
+					console.log('green: ' + gval);
+					console.log('blue: ' + bval);
+					console.log(rgbLEDvalues);
+					
+					$.ajax({
+					  type: "POST",
+					  url: "/RGB",
+					  data: rgbLEDvalues,
+					  success: function(){},
+					  dataType: "json",
+					  contentType : "application/json"
+					});
+	        };
+
+	        var r = $('#R').slider()
+	                	.on('slide', RGBChange)
+	                	.data('slider');
+	        var g = $('#G').slider()
+	                	.on('slide', RGBChange)
+	                	.data('slider');
+	        var b = $('#B').slider()
+	                	.on('slide', RGBChange)
+	                	.data('slider');
+						
+
+		});
+    </script>
+
+</body>
+</html>
